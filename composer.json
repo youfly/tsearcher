@@ -1,0 +1,22 @@
+{
+    "name": "czdb/exporter",
+    "description": "A PHP library for efficient IP geolocation using compact database formats.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "youfly",
+            "email": "youfly@yeah.net"
+        }
+    ],
+    "require": {
+        "rybakit/msgpack": "^0.9.1",
+        "czdb/searcher": "^1.0.4"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
